@@ -1,0 +1,23 @@
+IPFS hash of the deployment:
+- CIDv0: `QmUpezmR69HSSepjRJJh3q8JQFPgeG1i4JKw8FmVgUtqwd`
+- CIDv1: `bafybeidakk2ybrz27ok75u3dqidlp2pauhixudav4xr7lx4tmmjkxax6fa`
+
+The latest release is always mirrored at [app.uniswap.org](https://app.uniswap.org).
+
+You can also access the Uniswap Interface from an IPFS gateway.
+**BEWARE**: The Uniswap interface uses [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to remember your settings, such as which tokens you have imported.
+**You should always use an IPFS gateway that enforces origin separation**, or our hosted deployment of the latest release at [app.uniswap.org](https://app.uniswap.org).
+Your Uniswap settings are never remembered across different URLs.
+
+IPFS gateways:
+- https://bafybeidakk2ybrz27ok75u3dqidlp2pauhixudav4xr7lx4tmmjkxax6fa.ipfs.dweb.link/
+- [ipfs://QmUpezmR69HSSepjRJJh3q8JQFPgeG1i4JKw8FmVgUtqwd/](ipfs://QmUpezmR69HSSepjRJJh3q8JQFPgeG1i4JKw8FmVgUtqwd/)
+
+### 5.72.1 (2025-02-15)
+
+
+### Bug Fixes
+
+* **web:** regression affecting Android keyboard opening (#16405) 12ac4db
+
+
